@@ -1,1 +1,1 @@
-DELETE FROM product WHERE product_id = $1;
+UPDATE product SET description = $2 WHERE product_id = $1;
